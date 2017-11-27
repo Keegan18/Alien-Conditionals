@@ -11,7 +11,7 @@ function checklist(x, y, z){
 			else if (y <= 5000){
 				output = "MOTHER OF GOD, not the green ones";
 			}
-			else if (x + y >= 8000){
+			else if (x + y <= 8000){
 				output = "DOOOOOM";
 			}
 			else if (x + z >= 3000){
